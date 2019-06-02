@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(AlegreyaSansSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+
+body{
+	background-color: #fff;
+	margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.contnome{
+	margin-top: 15px;
+}
+
+.fotinha{
+	margin: auto;
+	margin-top: 20%;
+	margin-left: 10%;
+	max-width: 59%;
+	
+	border-radius: 500px;
+	float: left;
+}
+
+.linha {
+	margin: auto;
+	margin-top: 20%;
+	height: 80%;
+	max-height: 80%;
+	width: 1px;
+	float: right;
+	background-color: #0080ff;
+
+}
+
+.corpo{
+	background-color: transparent;
+	height: 300px;
+	width: 100%;
+}
+
+.container{
+	background-color: #000;
+}
+
+.container1{
+	float: left;
+	margin:auto;
+	background-color: #0e0e0e;
+	height: 100%;
+	width: 15%;
+}
+
+#c1{
+	height: 100%;
+}
+
+.container2{
+	margin: auto;
+	float: left;
+	background-color: #0e0e0e;
+	height: 100%;
+	width: 23%;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.container3{
+	float: left;
+	background-color: #0e0e0e;
+	height: 100%;
+	width: 24%;
+}
+
+.nome{
+	font-family: Alegreya;
+	font-size: 25px;	
+	color: #0080ff;
+	line-height: 1.2;
+	letter-spacing: 1px;
+}
+
+.sub{
+	font-family: Lato;
+	font-size: 15px;	
+	color: #e8e8eb;
+	letter-spacing: 1.5px;
+}
+
+.part1{
+	float: left;
+	margin:auto;
+	height: 55%;
+	width: 7%;
+
+}
+
+.part2{
+	float: left;
+	margin:auto;
+	height: 55%;
+	width: 93%;
+}
+
+.icons{
+	width: 25px;
+	height: 25px;
+	padding: 5px;
+}
+
+.regular{
+	padding: 10px;
+	font-size: 80%;
+	font-family: Lato;
+	color: #e8e8eb;
+
+}
+
+a:link {
+    color: #e8e8eb;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e8e8eb;
+}
+
+a:hover {
+    color: #0080ff;
+}
+
+a:active {
+    color: #3e6bb4;
+}
+
+.logo{
+	margin: auto;
+	max-width: 90%;
+	opacity: 0.3;
+}
+
+
+#clearfix {
+  overflow: auto;
+}
+
+#ajuste {
+  overflow: visible;
+}
+
+#bg {
+	margin: auto;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
